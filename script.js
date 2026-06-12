@@ -40,7 +40,7 @@ if (cursorDot && cursorRing && !prefersReducedMotion && window.innerWidth > 768)
     cursorRipple.classList.add('animate');
   });
 
-  const hoverTargets = document.querySelectorAll('a, button, .btn, .nav-link, .contact-link, .hero-social-link, .faq-question, .project-card, .skill-card, .testimonial-card, .about-card, .profile-img-wrap, .hero-image-wrap');
+  const hoverTargets = document.querySelectorAll('a, button, .btn, .nav-link, .contact-link, .hero-social-link, .faq-question, .project-card, .project-link, .skill-card, .testimonial-card, .about-card, .profile-img-wrap, .hero-image-wrap');
   hoverTargets.forEach(el => {
     el.addEventListener('mouseenter', () => {
       cursorDot.classList.add('expanded');
